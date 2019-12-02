@@ -1,6 +1,6 @@
 ---
 name: Enhancement Request
-about: Suggest an Enhancement for Universal Dashboard
+about: Suggest an Enhancement for Universal Automation
 labels: enhancement
 ---
 
@@ -12,9 +12,9 @@ A clear and concise description of what the problem is. Ex. I'm always frustrate
 
 A clear and concise description of what you want to happen.
 
-#### Describe how this would improve your Universal Dashboard Quality of Life
+#### Describe how this would improve your Universal Automation Quality of Life
 
-Please help us understand how this would improve your usage of universal dashboard and/or what new capabilities this enhancement would provide you with.
+Please help us understand how this would improve your usage of Universal Automation and/or what new capabilities this enhancement would provide you with.
 
 #### Describe alternatives you've considered
 
