@@ -20,6 +20,10 @@ The Universal Automation Dashboard module contains the UA dashboard.
 Install-Module UniversalAutomation.Dashboard -AllowPrerelease
 ```
 
+## Licensing 
+
+Universal Automation requires a license. It is licensed per agent. You will need to purchase a license from IronmanSoftware.com. The Universal Automation Dashboard requires a Universal Dashboard Premium or Enterprise license. 
+
 ## Filing Issues
 
 Please use the item templates provided to file isues for UA. We need to know the version of UA, UD, and PowerShell when issues are submitted. UA offers logging so including a relevant log is important. 
