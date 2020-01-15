@@ -6,7 +6,7 @@
 - UA dashboard active and historical job grids now use server-side processing
 - Fixing an issue where an AppToken would be generated when executing a script even when AppTokens aren't being used. 
 - Fixed issue where license activation would run every time the server was started 
-- Fixed issue with dot sourcing files (#73)
+- Fixed issue with dot sourcing files (https://github.com/ironmansoftware/universal-automation/issues/73)
 
 # 0.0.3-beta2 - 1-14-2020
 
