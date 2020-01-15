@@ -20,6 +20,10 @@ The Universal Automation Dashboard module contains the UA dashboard.
 Install-Module UniversalAutomation.Dashboard -AllowPrerelease
 ```
 
+## Nightly Builds 
+
+You can download nightly Universal Automation builds [here](https://universalautomation.z19.web.core.windows.net/).
+
 ## Licensing 
 
 Universal Automation requires a license. It is licensed per agent. You will need to purchase a license from IronmanSoftware.com. The Universal Automation Dashboard requires a Universal Dashboard Premium or Enterprise license. 
