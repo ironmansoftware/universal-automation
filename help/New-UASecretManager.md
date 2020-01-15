@@ -24,7 +24,7 @@ Creates a new secret manager in UA. Secret managers are used to retrieving secre
 
 ### Example 1
 ```powershell
-PS C:\> New-UASecretManager -Name 'Vault' -Get { param($Name) Get-SecretFromVault -Name $Name } 
+PS C:\> New-UASecretManager -Name 'Vault' -Get { param($Name) Get-SecretFromVault -Name $Name }
 ```
 
 Creates a new secret manager that retrieves a secret from the vault using a Get-SecretFromVault cmdlet. The Get scriptblock should accept the name of a variable and return a string. 

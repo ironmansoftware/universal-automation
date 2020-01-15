@@ -24,7 +24,7 @@ Creates a new tag in UA. Tags are used for identifying scripts.
 
 ### Example 1
 ```powershell
-PS C:\> New-UATag -Name 'Release Pipeline' -Color 'red' 
+PS C:\> New-UATag -Name 'Release Pipeline' -Color 'red'
 ```
 
 Creates a new tag called Release Pipeline that will be red in the UI. 

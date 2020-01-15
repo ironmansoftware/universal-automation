@@ -39,7 +39,7 @@ Returns folders defined within UA. Folders will be based on the internal and\or 
 
 ### Example 1
 ```powershell
-PS C:\> Get-UAFolder 
+PS C:\> Get-UAFolder
 ```
 
 Returns all folders within UA. 

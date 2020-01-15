@@ -25,7 +25,7 @@ Creates a new credential to be used for running scripts as the specified user. T
 ### Example 1
 ```powershell
 PS C:\> $Variable = Get-UAVariable -Name 'password' 
-PS C:\> $Credential = New-UACredential -UserName 'adam' -Password $Variable 
+PS C:\> $Credential = New-UACredential -UserName 'adam' -Password $Variable
 ```
 
 Retrieves the password variable and creates a new credential for the user 'adam'. The credential must be a secret coming from a secret manager. 

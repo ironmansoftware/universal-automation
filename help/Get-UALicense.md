@@ -5,46 +5,28 @@ online version:
 schema: 2.0.0
 ---
 
-# Get-UAIdentity
+# Get-UALicense
 
 ## SYNOPSIS
-Returns identities defined within UA. 
+Returns information about the installed license. 
 
 ## SYNTAX
 
-### All (Default)
 ```
-Get-UAIdentity [-ComputerName <String>] [-AppToken <String>] [<CommonParameters>]
-```
-
-### Id
-```
-Get-UAIdentity [-Id] <Int64> [-ComputerName <String>] [-AppToken <String>] [<CommonParameters>]
-```
-
-### Name
-```
-Get-UAIdentity [-Name] <String> [-ComputerName <String>] [-AppToken <String>] [<CommonParameters>]
+Get-UALicense [-ComputerName <String>] [-AppToken <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-Returns identities defined within UA. Identities are apps or users accessing UA. 
+Returns information about the installed license. 
 
 ## EXAMPLES
 
 ### Example 1
 ```powershell
-PS C:\> Get-UAIdentity
+PS C:\> Get-UALicense
 ```
 
-Returns all the identities defined within UA. 
-
-### Example 2
-```powershell
-PS C:\> Get-UAIdentity -Name 'Adam'
-```
-
-Returns the identity with the name 'Adam'.
+Returns license information. 
 
 ## PARAMETERS
 
@@ -73,36 +55,6 @@ Aliases:
 
 Required: False
 Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Id
-The Id of the identity to return.
-
-```yaml
-Type: Int64
-Parameter Sets: Id
-Aliases:
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Name
-The Name of the identity to return.
-
-```yaml
-Type: String
-Parameter Sets: Name
-Aliases:
-
-Required: True
-Position: 0
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False

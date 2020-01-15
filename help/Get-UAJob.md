@@ -14,22 +14,29 @@ Returns jobs run within UA.
 
 ### All (Default)
 ```
-Get-UAJob [-Tree] [-ComputerName <String>] [-AppToken <String>] [<CommonParameters>]
+Get-UAJob [-Status <JobStatus>] [-OrderBy <String>] [-OrderDirection <OrderDirection>] [-ComputerName <String>]
+ [-AppToken <String>] [-IncludeTotalCount] [-Skip <UInt64>] [-First <UInt64>] [<CommonParameters>]
 ```
 
 ### Id
 ```
-Get-UAJob [-Id] <Int64> [-Tree] [-ComputerName <String>] [-AppToken <String>] [<CommonParameters>]
+Get-UAJob [-Id] <Int64> [-Status <JobStatus>] [-OrderBy <String>] [-OrderDirection <OrderDirection>]
+ [-ComputerName <String>] [-AppToken <String>] [-IncludeTotalCount] [-Skip <UInt64>] [-First <UInt64>]
+ [<CommonParameters>]
 ```
 
 ### Identity
 ```
-Get-UAJob [-Identity] <Identity> [-Tree] [-ComputerName <String>] [-AppToken <String>] [<CommonParameters>]
+Get-UAJob [-Identity] <Identity> [-Status <JobStatus>] [-OrderBy <String>] [-OrderDirection <OrderDirection>]
+ [-ComputerName <String>] [-AppToken <String>] [-IncludeTotalCount] [-Skip <UInt64>] [-First <UInt64>]
+ [<CommonParameters>]
 ```
 
 ### Script
 ```
-Get-UAJob [-Script] <Script> [-Tree] [-ComputerName <String>] [-AppToken <String>] [<CommonParameters>]
+Get-UAJob [-Script] <Script> [-Status <JobStatus>] [-OrderBy <String>] [-OrderDirection <OrderDirection>]
+ [-ComputerName <String>] [-AppToken <String>] [-IncludeTotalCount] [-Skip <UInt64>] [-First <UInt64>]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -39,7 +46,7 @@ Returns jobs run within UA.
 
 ### Example 1
 ```powershell
-PS C:\> Get-UAJob 
+PS C:\> Get-UAJob
 ```
 
 Returns all jobs run in UA. 
@@ -98,6 +105,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -First
+Gets only the specified number of objects. Enter the number of objects to get.
+
+```yaml
+Type: UInt64
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -Id
 The ID of the job to return.
 
@@ -128,6 +150,53 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
+### -IncludeTotalCount
+Reports the total number of objects in the data set (an integer) followed by the selected objects. If the cmdlet cannot determine the total count, it displays "Unknown total count." The integer has an Accuracy property that indicates the reliability of the total count value. The value of Accuracy ranges from 0.0 to 1.0 where 0.0 means that the cmdlet could not count the objects, 1.0 means that the count is exact, and a value between 0.0 and 1.0 indicates an increasingly reliable estimate.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -OrderBy
+Orders the output based on the property selected. 
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases:
+Accepted values: Id, StartTime, EndTime
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -OrderDirection
+Orders ascending or descending. 
+
+```yaml
+Type: OrderDirection
+Parameter Sets: (All)
+Aliases:
+Accepted values: Descending, Ascending
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -Script
 Returns jobs based on this script. 
 
@@ -143,13 +212,29 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Tree
-Returns all associated jobs of the specified script. 
+### -Skip
+Ignores the specified number of objects and then gets the remaining objects. Enter the number of objects to skip.
 
 ```yaml
-Type: SwitchParameter
+Type: UInt64
 Parameter Sets: (All)
 Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Status
+Filters output based on this status. 
+
+```yaml
+Type: JobStatus
+Parameter Sets: (All)
+Aliases:
+Accepted values: Queued, Running, Completed, Failed, WaitingOnFeedback, Canceled, Canceling, Historical, Active
 
 Required: False
 Position: Named

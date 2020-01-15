@@ -26,7 +26,7 @@ Removes a tag from a script.
 ```powershell
 PS C:\> $Tag = Get-UATag -Name 'Release'
 PS C:\> $Script = Get-UAScript -Name 'Script1.ps1'
-PS C:\> Remove-UAScriptTag -Tag $Tag -Script $Script 
+PS C:\> Remove-UAScriptTag -Tag $Tag -Script $Script
 ```
 
 Removes the Release tag from the Script1.ps1 script. 

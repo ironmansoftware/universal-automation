@@ -15,7 +15,8 @@ Starts the UA server.
 ```
 Start-UAServer [[-Port] <String>] [[-ConnectionString] <String>] [[-GitRemote] <String>]
  [[-GitRemoteCredential] <PSCredential>] [[-JwtSigningKey] <String>] [[-JwtAudience] <String>]
- [[-JwtIssuer] <String>] [[-LocalComputerName] <String>] [[-InProcess] <Switch>] [[-CertificateFile] <String>] [[-CertificatePassword] <String>] [<CommonParameters>]
+ [[-JwtIssuer] <String>] [[-LocalComputerName] <String>] [[-CertificateFile] <String>]
+ [[-CertificatePassword] <SecureString>] [-InProcess] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -49,8 +50,37 @@ PS C:\> Start-UAServer -Port 1000 -ConnectionString C:\database.db
 
 Starts the UA server on port 1000 with the connection string for the LiteDB database set to C:\database.db.
 
-
 ## PARAMETERS
+
+### -CertificateFile
+The certificate file to use. 
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: 8
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -CertificatePassword
+The certificate password to use. 
+
+```yaml
+Type: SecureString
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: 9
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
 
 ### -ConnectionString
 The path to the LiteDB database file. 
@@ -92,6 +122,21 @@ Aliases:
 
 Required: False
 Position: 3
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InProcess
+Runs the server in the current process. 
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False

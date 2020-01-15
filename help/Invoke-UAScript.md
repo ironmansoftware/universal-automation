@@ -40,7 +40,7 @@ Invokes 'Script1.ps1'
 ### Example 2
 ```powershell
 PS C:\> $Script = Get-UAScript -Name 'Script1.ps1'
-PS C:\> Invoke-UAScript -Script $Script -Parameter1 123 -Parameter2 "Test" 
+PS C:\> Invoke-UAScript -Script $Script -Parameter1 123 -Parameter2 "Test"
 ```
 
 Invokes 'Script1.ps1' with the parameters Parameter1 and Parameter2. These parameters will be passed to the script. Invoke-UAScript supports any number of dynamic parameters. 
@@ -50,11 +50,10 @@ Invokes 'Script1.ps1' with the parameters Parameter1 and Parameter2. These param
 PS C:\> $Script = Get-UAScript -Name 'Script1.ps1'
 PS C:\> $Password = Get-UAVariable -Name 'UserPassword'
 PS C:\> $Credential = New-UDCredential -UserName 'adam' -Password $Password
-PS C:\> Invoke-UAScript -Script $Script -Credential $Credential 
+PS C:\> Invoke-UAScript -Script $Script -Credential $Credential
 ```
 
 Invokes 'Script1.ps1' as the user 'adam'. Passwords are retrieved from secret managers and cannot be passed in as strings. 
-
 
 ## PARAMETERS
 

@@ -24,7 +24,7 @@ Removes a schedule for a script.
 ### Example 1
 ```powershell
 PS C:\> $Schedule = Get-UASchedule -Id 12
-PS C:\> Remove-UASchedule -Schedule $Schedule 
+PS C:\> Remove-UASchedule -Schedule $Schedule
 ```
 
 Removes schedule 12. 

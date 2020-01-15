@@ -64,7 +64,7 @@ Returns the script with ID 12.
 ### Example 3
 ```powershell
 PS C:\> $Identity = Get-UAIdentity -Name 'Adam'
-PS C:\> Get-UAScript -Identity $Identity 
+PS C:\> Get-UAScript -Identity $Identity
 ```
 
 Returns all scripts created or modified by the identity 'Adam'.

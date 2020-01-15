@@ -54,7 +54,6 @@ PS C:\> New-UAScript -ScriptBlock { Get-Process } -Name 'GetProcess' -PowerShell
 
 Creates the script "GetProcess" in UA. A script named 'GetProcess.ps1" will be created in the Git repoisitory. This script will be run using the PS7 PowerShell version. 
 
-
 ## PARAMETERS
 
 ### -AppToken
