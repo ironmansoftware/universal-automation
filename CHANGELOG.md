@@ -1,6 +1,7 @@
 # 0.0.3-beta4 [Unreleased]
 
 - Fixed an issue with not being able to save PowerShell Version settings - https://github.com/ironmansoftware/universal-automation/issues/71
+- Fixed sorting of job tables (clicking now sorts correctly) 
 
 # 0.0.3-beta3 - 1-15-2020
 
