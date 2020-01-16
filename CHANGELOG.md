@@ -2,6 +2,7 @@
 
 - Fixed an issue with not being able to save PowerShell Version settings - https://github.com/ironmansoftware/universal-automation/issues/71
 - Fixed sorting of job tables (clicking now sorts correctly) 
+- Fixed issue where schedules would be lost when editing the script content in the dashboard - https://github.com/ironmansoftware/universal-automation/issues/66
 
 # 0.0.3-beta3 - 1-15-2020
 
