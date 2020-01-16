@@ -1,5 +1,12 @@
 # 0.0.3-beta4 [Unreleased]
 
+## Added 
+
+- Added built-in varaibles for $UAScript, $UAJob, and $UASchedule. https://github.com/ironmansoftware/universal-automation/issues/64
+
+## Changed
+
+- Error output now lists the script stack trace. 
 - Fixed an issue with not being able to save PowerShell Version settings - https://github.com/ironmansoftware/universal-automation/issues/71
 - Fixed sorting of job tables (clicking now sorts correctly) 
 - Fixed issue where schedules would be lost when editing the script content in the dashboard - https://github.com/ironmansoftware/universal-automation/issues/66
