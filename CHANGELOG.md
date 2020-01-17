@@ -3,6 +3,7 @@
 ## Added 
 
 - Added built-in varaibles for $UAScript, $UAJob, and $UASchedule. https://github.com/ironmansoftware/universal-automation/issues/64
+- Added -DisableManualInvocation to New-UASchedule to prevent jobs from running ad-hoc - https://github.com/ironmansoftware/universal-automation/issues/59
 
 ## Changed
 
