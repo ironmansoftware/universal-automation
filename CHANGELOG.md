@@ -1,3 +1,9 @@
+# Unreleased
+
+## Added
+
+- Added UI controls for disabling manual invocation of scripts
+
 # 0.0.3-beta4 - 1-18-2020
 
 ## Added 
