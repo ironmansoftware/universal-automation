@@ -4,6 +4,10 @@
 
 - Added UI controls for disabling manual invocation of scripts
 
+## Changed
+
+- Fixed issue where a $null on the pipeline would cause a script to file - https://github.com/ironmansoftware/universal-automation/issues/74
+
 # 0.0.3-beta4 - 1-18-2020
 
 ## Added 
