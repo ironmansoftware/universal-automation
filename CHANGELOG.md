@@ -3,6 +3,7 @@
 ## Added
 
 - Added UI controls for disabling manual invocation of scripts
+- Tags are now stored in the git repo under `.ua/tags.psd1'
 
 ## Changed
 
