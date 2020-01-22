@@ -3,12 +3,13 @@
 ## Added
 
 - Added UI controls for disabling manual invocation of scripts
-- Tags are now stored in the git repo under `.ua/tags.psd1'
+- Tags are now stored in the git repo under `.ua/tags.psd1`
 
 ## Changed
 
 - Fixed issue where a $null on the pipeline would cause a script to file - https://github.com/ironmansoftware/universal-automation/issues/74
 - Fixed an issue where you couldn't cancel a script requesting feedback - https://github.com/ironmansoftware/universal-automation/issues/78
+- No trial license required - https://ironmansoftware.com/simplifying-product-trial-licensing/
 
 # 0.0.3-beta4 - 1-18-2020
 
