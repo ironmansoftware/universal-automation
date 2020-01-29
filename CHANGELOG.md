@@ -8,6 +8,8 @@
 
 - Fixed an issue where restarting the server would fail to return a system app token and you could no longer use the UA dashboard (401 error)
 - Fixed an issue where scripts' tags would not be sync'd to git - https://github.com/ironmansoftware/universal-automation/issues/67
+- Fixed issue with roles not being assigned
+- Fixed issue with session AppToken not being used in the dashboard
 
 # 0.0.3-beta5 - 1-22-2020
 
