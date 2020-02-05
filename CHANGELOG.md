@@ -3,6 +3,7 @@
 ## Added 
 
 - Added -RepositoryPath to Start-UAServer so you can specify where the local Git repo is stored. 
+- Added support for authentication on the Swagger page
 
 ## Changed
 
