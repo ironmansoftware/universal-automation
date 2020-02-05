@@ -4,6 +4,10 @@
 
 - Added -RepositoryPath to Start-UAServer so you can specify where the local Git repo is stored. 
 
+## Changed
+
+- UA will now work in the ISE
+
 # 0.0.3-beta6 - 1-31-2020
 
 ## Added 
