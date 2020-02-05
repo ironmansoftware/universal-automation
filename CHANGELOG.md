@@ -8,6 +8,7 @@
 ## Changed
 
 - UA will now work in the ISE
+- Stop-UAServer now performs a graceful shutdown by default. Using the -Force parameter forces the process to terminate.
 
 # 0.0.3-beta6 - 1-31-2020
 
