@@ -1,4 +1,4 @@
-# Unreleased
+# 0.0.3-beta7 - 1/6/2020
 
 ## Added 
 
