@@ -9,6 +9,7 @@
 
 - UA will now work in the ISE
 - Stop-UAServer now performs a graceful shutdown by default. Using the -Force parameter forces the process to terminate.
+- Fixed an issue where an dashboard without authentication enabled would be in read-only mode
 
 # 0.0.3-beta6 - 1-31-2020
 
