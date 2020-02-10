@@ -1,3 +1,9 @@
+# Unreleased
+
+## Changed
+
+- Fixed issue where a mismatch between the $User variable and the current Identity would cause an exception
+
 # 0.0.3-beta7 - 1/6/2020
 
 ## Added 
