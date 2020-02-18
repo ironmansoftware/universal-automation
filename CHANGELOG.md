@@ -1,8 +1,14 @@
 # Unreleased
 
+## Added
+
+- Added -ApiUrl for Start-UAServer so UA works correctly behind a reverse proxy like IIS
+
 ## Changed
 
 - Fixed issue where a mismatch between the $User variable and the current Identity would cause an exception
+- InProcess parameter of Start-UAServer now blocks so it properly supports IIS.
+- Fixed a crash that would happen after running a job. 
 
 # 0.0.3-beta7 - 1/6/2020
 
