@@ -11,6 +11,7 @@
 - InProcess parameter of Start-UAServer now blocks so it properly supports IIS.
 - Fixed a crash that would happen after running a job. 
 - Fixed issue with how AppToken was being set for jobs.
+- Fixed an issue where deleting a script wouldn't delete associated schedules
 
 # 0.0.3-beta7 - 2/6/2020
 
