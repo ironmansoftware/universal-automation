@@ -12,7 +12,7 @@
 - Fixed a crash that would happen after running a job. 
 - Fixed issue with how AppToken was being set for jobs.
 
-# 0.0.3-beta7 - 1/6/2020
+# 0.0.3-beta7 - 2/6/2020
 
 ## Added 
 
