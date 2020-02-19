@@ -3,12 +3,14 @@
 ## Added
 
 - Added -ApiUrl for Start-UAServer so UA works correctly behind a reverse proxy like IIS
+- Added -ErrorAction to Set-UAScript
 
 ## Changed
 
 - Fixed issue where a mismatch between the $User variable and the current Identity would cause an exception
 - InProcess parameter of Start-UAServer now blocks so it properly supports IIS.
 - Fixed a crash that would happen after running a job. 
+- Fixed issue with how AppToken was being set for jobs.
 
 # 0.0.3-beta7 - 1/6/2020
 
