@@ -12,6 +12,7 @@
 - Fixed a crash that would happen after running a job. 
 - Fixed issue with how AppToken was being set for jobs.
 - Fixed an issue where deleting a script wouldn't delete associated schedules
+- If the API connection fails within a job, it will not cause the job to fail. 
 
 # 0.0.3-beta7 - 2/6/2020
 
