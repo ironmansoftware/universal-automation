@@ -1,4 +1,4 @@
-# Unreleased
+# 1.0.0 - 2/24/2020
 
 ## Added
 
