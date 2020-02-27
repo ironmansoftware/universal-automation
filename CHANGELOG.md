@@ -2,13 +2,14 @@
 
 ## Added
 
-- Added grooming job to remove jobs and output that are 30+ days old
+- [Module] Added grooming job to remove jobs and output that are 30+ days old
 
 ## Changed 
 
-- Fixed but with ErrorAction parameter on Set-UAScript
-- /api/v1/script now accepts query string parameters for script parameters
-
+- [Module] Fixed but with ErrorAction parameter on Set-UAScript
+- [Module] /api/v1/script now accepts query string parameters for script parameters
+- [Desktop] Provided a better error message when UA is alive but not accessible because authentication is enabled.
+ 
 # 1.0.0 - 2/24/2020
 
 ## Added
