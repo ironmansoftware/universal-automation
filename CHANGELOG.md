@@ -1,3 +1,13 @@
+# Unrelease 
+
+## Added 
+
+- [Desktop] Added a link to the scripts page from the jobs page
+
+## Changed
+
+- [Desktop] Edit button now opens the script in VS Code
+
 # 1.0.1 - 2/27/2020
 
 ## Added
