@@ -10,6 +10,7 @@
 - [Module] Fixed but with ErrorAction parameter on Set-UAScript
 - [Module] /api/v1/script now accepts query string parameters for script parameters
 - [Desktop] Provided a better error message when UA is alive but not accessible because authentication is enabled.
+- [Desktop] UA Desktop is now code signed correctly. 
  
 # 1.0.0 - 2/24/2020
 
