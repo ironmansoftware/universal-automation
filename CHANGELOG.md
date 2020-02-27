@@ -3,6 +3,7 @@
 ## Added
 
 - [Module] Added grooming job to remove jobs and output that are 30+ days old
+- [Desktop] Added the ability to manage PowerShell Versions 
 
 ## Changed 
 
