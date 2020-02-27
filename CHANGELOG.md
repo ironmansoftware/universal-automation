@@ -1,3 +1,14 @@
+# 1.0.1 - Unreleased
+
+## Added
+
+- Added grooming job to remove jobs and output that are 30+ days old
+
+## Changed 
+
+- Fixed but with ErrorAction parameter on Set-UAScript
+- /api/v1/script now accepts query string parameters for script parameters
+
 # 1.0.0 - 2/24/2020
 
 ## Added
