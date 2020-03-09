@@ -12,7 +12,8 @@
 - [UI] Edit button now allows for editing in the UI
 - [Core] Fixed the PowerShell resolver so it detects PowerShell versions correctly. 
 - [UI] Improved the pipeline output table 
-
+- [Core] Fixed issue with starting UA Server on Mac OSX
+ 
 # 1.0.1 - 2/27/2020
 
 ## Added
