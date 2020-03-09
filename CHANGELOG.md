@@ -13,6 +13,7 @@
 - [Core] Fixed the PowerShell resolver so it detects PowerShell versions correctly. 
 - [UI] Improved the pipeline output table 
 - [Core] Fixed issue with starting UA Server on Mac OSX
+- [Core] Fixed issue where grooming could remove active jobs
  
 # 1.0.1 - 2/27/2020
 
