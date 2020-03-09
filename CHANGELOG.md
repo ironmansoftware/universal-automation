@@ -2,11 +2,16 @@
 
 ## Added 
 
-- [Desktop] Added a link to the scripts page from the jobs page
+- [UI] Added a link to the scripts page from the jobs page
+- [Core] Added One Time scheduling
+- [UI] Added a New Script button to the scripts page 
 
 ## Changed
 
-- [Desktop] Edit button now opens the script in VS Code
+- [UI] - The web dashboard is now based on the desktop app
+- [UI] Edit button now allows for editing in the UI
+- [Core] Fixed the PowerShell resolver so it detects PowerShell versions correctly. 
+- [UI] Improved the pipeline output table 
 
 # 1.0.1 - 2/27/2020
 
