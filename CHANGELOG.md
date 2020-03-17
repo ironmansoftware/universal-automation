@@ -3,6 +3,7 @@
 ## Added
 
 - [Core\UI] Added per-script grooming setting. 
+- [UI] Added Jobs tab to the script page
 
 ## Changed
 
