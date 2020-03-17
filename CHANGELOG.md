@@ -7,7 +7,8 @@
 ## Changed
 
 - [UI] The jobs tab now pages correctly to improve performance
-- [UI] Improved the performance of the job page. 
+- [UI] Improved the performance of the job page.
+- [UI] Fixed an issue where hosting in IIS would not authenticate properly with Windows auth
 
 # 1.1.0 - 3/16/2020
 
