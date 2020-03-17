@@ -4,6 +4,10 @@
 
 - [Core\UI] Added per-script grooming setting. 
 
+## Changed
+
+- [UI] The jobs tab now pages correctly to improve performance
+
 # 1.1.0 - 3/16/2020
 
 ## Added 
