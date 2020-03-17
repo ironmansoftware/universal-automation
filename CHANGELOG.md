@@ -1,3 +1,9 @@
+# 1.1.1 - Unreleased
+
+## Added
+
+- [Core\UI] Added per-script grooming setting. 
+
 # 1.1.0 - 3/16/2020
 
 ## Added 
