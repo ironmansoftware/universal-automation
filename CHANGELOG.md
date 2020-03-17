@@ -7,6 +7,7 @@
 ## Changed
 
 - [UI] The jobs tab now pages correctly to improve performance
+- [UI] Improved the performance of the job page. 
 
 # 1.1.0 - 3/16/2020
 
