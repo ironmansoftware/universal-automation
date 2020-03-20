@@ -1,3 +1,14 @@
+# 1.1.2 - Unreleased
+
+## Added 
+
+- [UI] Added a checkbox to take you to a script after creating it
+
+## Changed 
+
+- [UI] Fixed an issue where the UI would go blank if the script text was completely deleted
+- [UI] The default comment in the editor of a new script is the name of script
+
 # 1.1.1 - 3/19/2020
 
 ## Added
