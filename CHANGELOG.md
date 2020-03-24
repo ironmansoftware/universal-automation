@@ -1,13 +1,16 @@
-# 1.1.2 - Unreleased
+# 1.2.0 - Unreleased
 
 ## Added 
 
 - [UI] Added a checkbox to take you to a script after creating it
+- [Core\UI] Added support for Secret Management 
+- [Core\UI] Added PowerShell Version option to schedules
 
 ## Changed 
 
 - [UI] Fixed an issue where the UI would go blank if the script text was completely deleted
 - [UI] The default comment in the editor of a new script is the name of script
+- [Core] Greatly improved the performance of viewing pipeline output
 
 # 1.1.1 - 3/19/2020
 
