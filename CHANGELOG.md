@@ -11,6 +11,7 @@
 - [UI] Fixed an issue where the UI would go blank if the script text was completely deleted
 - [UI] The default comment in the editor of a new script is the name of script
 - [Core] Greatly improved the performance of viewing pipeline output
+- [Core] Jobs are now run with -NoProfile set
 
 # 1.1.1 - 3/19/2020
 
