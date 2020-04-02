@@ -5,6 +5,8 @@
 - [UI] Added a checkbox to take you to a script after creating it
 - [Core\UI] Added support for Secret Management 
 - [Core\UI] Added PowerShell Version option to schedules
+- [UI] Added the ability to edit variablee
+- [UI] Added the ability to sort jobs by status, start time and end time 
 
 ## Changed 
 
