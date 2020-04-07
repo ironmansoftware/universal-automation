@@ -1,3 +1,10 @@
+# 1.2.1 - 4/7/2020 
+
+## Changed
+
+- [Core] Fixed an issue where running a job with alternate credentials when hosted as a Windows Service would fail 
+- [UI] Fixed an issue where the UD dashboard would not accept a UD license and would not display information about licensing. 
+
 # 1.2.0 - 4/6/2020
 
 ## Added 
