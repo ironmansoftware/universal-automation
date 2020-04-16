@@ -1,3 +1,13 @@
+# 1.3.0 - 4/16/2020
+
+## Added 
+
+- [Core/UI] Added support for presenting additional controls based on the param block of a script. 
+
+## Changed
+
+- [UI] Changed the location and behavior of the navigation bar. 
+
 # 1.2.1 - 4/7/2020 
 
 ## Changed
