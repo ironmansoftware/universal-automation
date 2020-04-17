@@ -1,3 +1,9 @@
+# 1.3.2 - Unreleased
+
+## Changed
+
+- [Core] Fixed an issue where Invoke-UAScript would throw an exception when called without a credential
+
 # 1.3.1 - 4/17/2020
 
 ## Changed
