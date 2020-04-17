@@ -1,3 +1,10 @@
+# 1.3.1 - 4/17/2020
+
+## Changed
+
+- [Core/UI] Fixed an issue where the UA dashboard would fail to load
+- [Core] Fixed an issue where grooming would only groom jobs that were recent.
+
 # 1.3.0 - 4/16/2020
 
 ## Added 
