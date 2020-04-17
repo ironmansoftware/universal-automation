@@ -1,5 +1,10 @@
 # 1.3.2 - Unreleased
 
+## Added
+
+- [Core] Added support for storing objects as variables 
+- [Core] Added support for returning only the value of a variable using Get-UAVariable 
+
 ## Changed
 
 - [Core] Fixed an issue where Invoke-UAScript would throw an exception when called without a credential
