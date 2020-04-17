@@ -4,6 +4,7 @@
 
 - [Core] Fixed an issue where Invoke-UAScript would throw an exception when called without a credential
 - [UI] Fixed an issue where you would edit a variable and it would lose it's type.
+- [UI] Fixed an issue where variables with long names or values would make the UI unusable. 
 
 # 1.3.1 - 4/17/2020
 
