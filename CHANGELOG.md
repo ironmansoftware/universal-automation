@@ -3,6 +3,7 @@
 ## Changed
 
 - [Core] Fixed an issue where Invoke-UAScript would throw an exception when called without a credential
+- [Core] Fixed an issue where invoking a script could result in double serialization of the input parameters. 
 - [UI] Fixed an issue where you would edit a variable and it would lose it's type.
 - [UI] Fixed an issue where variables with long names or values would make the UI unusable. 
 
